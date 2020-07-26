@@ -1,0 +1,154 @@
+body {
+    background-color: #858585;
+}
+
+table {
+    width: 100%;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    text-transform: uppercase; 
+    background-color: #333333;
+    padding: 10px;
+}
+
+th, td {
+    width: 12%;
+}
+
+td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+.corner-left {
+    border-radius: 10px 0 0 0;
+}
+
+.corner-right {
+    border-radius: 0 10px 0 0px;
+}
+
+.calendar {
+    height: 150px;
+    background-color: #515151;
+}
+
+.number {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.event {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    height: 18px;
+    color: #4c4c4c;
+    border-radius: 10px;
+}
+
+/* ----------------------- First Cell --------------------- */
+
+.singl-day {
+    background-color: #ff9999;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.event-start {
+    background-color: #85d6ff;
+    margin-right: -20px;
+}
+
+.photo-start {
+    background-color: #99FF99;
+    margin-right: -20px;
+}
+
+
+/* ----------------------- Second Cell --------------------- */
+
+.event-middle {
+    text-align: center;
+    background-color: #85d6ff;
+    margin-right: -20px;
+    margin-left: -20px;
+}
+
+.photo-middle {
+    text-align: center;
+    background-color: #99FF99;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+/* ----------------------- Third Cell --------------------- */
+
+.event-end {
+    background-color: #85d6ff;
+    margin-left: -20px;
+}
+
+.photo-about {
+    background-color: #99FF99;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+/* ----------------- Fourth Cell ------------------------------ */
+
+.test {
+    background-color: #DEBDFF;
+    text-align: center;
+}
+
+.interview {
+    background-color: #ff9999;
+    text-align: center;
+}
+
+.photo-end {
+    background-color: #99FF99;
+    margin-left: -20px;
+}
+
+/* ----------------- Fifth Cell  ------------------------------- */
+
+.start-workshop {
+    background-color: #99FF99;
+    margin-right: -50px;
+    text-align: right;
+}
+
+/* ----------------- Sixth Cell  ------------------------------- */
+
+.end-workshop {
+    background-color: #99FF99;
+    margin-left: -20px;
+}
+
+.start-vacation {
+    background-color: #DEBDFF;
+    margin-right: -50px;
+    text-align: right;
+}
+
+/* ----------------- Seventh Cell  ------------------------------- */
+
+.brunch {
+    background-color: #85d6ff;
+    text-align: center;
+}
+
+.end-vacation {
+    background-color: #DEBDFF;
+    margin-left: -15px;
+}
